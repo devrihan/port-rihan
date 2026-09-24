@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your skills and projects with a sleek dark-themed portfolio tailored for developers and designers, enhancing visibility and professionalism.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

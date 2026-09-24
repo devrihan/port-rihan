@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-background: #080808;
+  --color-foreground: #e8e8e8;
+  --color-card: #0f0f0f;
+  --color-card-foreground: #e8e8e8;
+  --color-primary: #b8ff57;
+  --color-primary-foreground: #080808;
+  --color-secondary: #141414;
+  --color-secondary-foreground: #a0a0a0;
+  --color-muted: #1a1a1a;
+  --color-muted-foreground: #666666;
+  --color-accent: #b8ff57;
+  --color-accent-foreground: #080808;
+  --color-border: #1e1e1e;
+  --color-ring: #b8ff57;
+
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Outfit', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080808;
+  color: #e8e8e8;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+::selection {
+  background: #b8ff57;
+  color: #080808;
+}
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
